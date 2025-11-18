@@ -60,7 +60,7 @@ const QuizBox = ({isClicked,setIsClicked,isTrue,setIsTrue,score,setScore, questi
         })
     },[questionNum])
    
-   return ( <div className="max-w-md mx-auto mt-24 mb-24 rounded-lg p-6 bg-white text-black text-center" >
+   return ( <div className="max-w-sm mx-auto mt-24 mb-24 rounded-lg p-6 bg-white text-black text-center" >
   
     <h1 className="font-bold text-3xl mb-3">Quiz Game</h1>
         { questionNum < 11 ? <div>
